@@ -92,13 +92,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/hw0k-play/docusaurus-demo/edit/main/website/',
+            'https://github.com/hw0k-play/docusaurus-demo/edit/main/docs/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/hw0k-play/docusaurus-demo/edit/main/website/blog/',
+            'https://github.com/hw0k-play/docusaurus-demo/edit/main/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
