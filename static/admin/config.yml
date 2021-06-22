@@ -1,15 +1,15 @@
 backend:
   name: git-gateway
   branch: main
-  media_folder: "static/images"
-  public_folder: "/images"
-  collections:
-    - label: Post
-      name: post
-      slug: "{{year}}-{{month}}-{{day}}-{{fields.slug}}"
-      identifier_field: slug
-      create: true
-      fields:
-        - {label: "Slug", name: "slug", widget: "string"}
-        - {label: "Title", name: "title", widget: "string"}
-        - {label: "Body", name: "body", widget: "markdown"}
+media_folder: "static/images"
+public_folder: "/images"
+collections:
+  - label: Post
+    name: post
+    slug: "{{year}}-{{month}}-{{day}}-{{fields.slug}}"
+    identifier_field: slug
+    create: true
+    fields:
+      - {label: "Slug", name: "slug", widget: "string"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
