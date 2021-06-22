@@ -1,6 +1,7 @@
 ---
 slug: docusaurus-vs-notion
 title: Docusaurus vs Notion 짧게 비교하기
+image: https://dogecoin.org/static/11cf6c18151cbb22c6a25d704ae7b313/dd8fa/doge-main.jpg
 author: Henry
 author_title: Software Engineer
 author_url: https://github.com/humanscape-henry
