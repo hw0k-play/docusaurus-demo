@@ -43,10 +43,10 @@ module.exports = {
       theme: lightCodeTheme,
       darkTheme: darkCodeTheme,
     },
-    algolia: {
-      apiKey: process.env.ALGOLIA_API_KEY,
-      indexName: 'docusaurus-demo',
-    },
+    // algolia: {
+    //   apiKey: process.env.ALGOLIA_API_KEY,
+    //   indexName: 'docusaurus-demo',
+    // },
   },
   presets: [
     [
