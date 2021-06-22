@@ -6,6 +6,7 @@ public_folder: "/images"
 collections:
   - label: Post
     name: post
+    folder: "blog"
     slug: "{{year}}-{{month}}-{{day}}-{{fields.slug}}"
     identifier_field: slug
     create: true
