@@ -5,9 +5,13 @@ fields:
 - type: text
   name: slug
   label: slug
+  config:
+    required: false
 - type: text
   name: title
   label: title
+  config:
+    required: true
 - type: file
   name: image
   label: image
